@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Existing entries... -->
+    
+    <!-- Location Permission -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Location access is required to accept payments and reduce fraud.</string>
+    
+    <!-- Bluetooth Permissions -->
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>This app uses Bluetooth to connect to card readers for payment processing.</string>
+    
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Bluetooth access is required to connect to card readers.</string>
+    
+    <!-- Background Modes -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>bluetooth-central</string>
+    </array>
+</dict>
+</plist>
